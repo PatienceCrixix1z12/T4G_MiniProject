@@ -134,3 +134,20 @@ p{
     height: 50px;
     margin-top: 10px;
  }
+.bigadd{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    
+}
+
+.imgcon{
+    height: 400px;
+    width: 400px;
+}
+h1{
+    text-align: center;
+}
+
+    
+ 
