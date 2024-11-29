@@ -187,9 +187,13 @@ h1{
 .gal{
     width: 100%;
     display: flex;
+    gap: 30px;
 
 }
     .sgal{
         width: 30%;
     }
- 
+ .sgal image{
+    width: 100%;
+    
+ }
