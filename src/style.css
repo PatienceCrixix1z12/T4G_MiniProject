@@ -138,6 +138,9 @@ p{
     justify-content: space-evenly;
     
 }
+/* .abby{
+    background-image: url(../images/gall4.jpg); */
+/* } */
 
 .imgcon{
     height: 400px;
@@ -181,5 +184,12 @@ h1{
 .up{
     background-image: url(../images/ft1.jpg);
 }
-    
+.gal{
+    width: 100%;
+    display: flex;
+
+}
+    .sgal{
+        width: 30%;
+    }
  
