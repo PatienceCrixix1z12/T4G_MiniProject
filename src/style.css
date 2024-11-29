@@ -73,9 +73,7 @@ p{
     width: 30px;
     height: 40px;
 } */
- .logform label{
-    
- }
+ 
  .label1{
     padding: 20px;
     font-size: large;
@@ -143,10 +141,28 @@ p{
 
 .imgcon{
     height: 400px;
-    width: 400px;
+    width: 700px;
 }
 h1{
     text-align: center;
+}
+.myform{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.icons{
+    
+    justify-content: space-evenly;
+    gap: 20px   ;
+}
+.em{
+    line-height: 1 0px;
 }
 
     
