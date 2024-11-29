@@ -164,6 +164,22 @@ h1{
 .em{
     line-height: 1 0px;
 }
-
+.sign{
+    /* background-color: blueviolet; */
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+}
+.sign input{
+    width: 400px;
+    height: 25px;
+    /* line-height: 70px; */
+}
+.sign label{
+    line-height: 30px;
+}
+.up{
+    background-image: url(../images/ft1.jpg);
+}
     
  
