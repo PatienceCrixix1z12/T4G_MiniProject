@@ -2,7 +2,7 @@ nav{
     display: flex;
     gap: 30px;
     justify-content: center;
-    background-color: rgb(79, 99, 207);
+    background-color: rgb(70, 78, 120);
     padding: 20px 20px;
 }
 a{
@@ -15,6 +15,9 @@ body{
 form{
     text-align: center;
 
+}
+.abby{
+background-image: url(../images/blur.jpg);
 }
 .bighello{
     display: flex;
@@ -63,6 +66,7 @@ p{
     margin: 50px auto;
     /* border: 3px solid white; */
     height: 250px;
+    
 }
 
 .logform input{
@@ -151,13 +155,15 @@ h1{
 }
 .myform{
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(101, 71, 71);
     border-radius: 20px;
     width: 40%;
     align-items: center;
     display: flex;
     justify-content: center;
     margin-left: 30%;
+    background-color: rgb(77, 129, 111);
+    background-image: url(../images/blur.jpg);
 }
 .icons{
     
@@ -197,3 +203,6 @@ h1{
     width: 100%;
     
  }
+ 
+
+ 
