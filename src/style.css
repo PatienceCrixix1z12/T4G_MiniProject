@@ -2,8 +2,15 @@ nav{
     display: flex;
     gap: 30px;
     justify-content: center;
-    background-color: rgb(70, 78, 120);
+    background-color: rgb(127, 143, 225);
     padding: 20px 20px;
+   border: 2px solid rgb(110, 126, 202);
+   box-shadow: 0 2px 8px rgb(221, 138, 138);
+   border-radius: 10px;
+}
+
+nav .active{
+    background-color: aquamarine;
 }
 a{
     color: black;
@@ -15,6 +22,11 @@ body{
 form{
     text-align: center;
 
+}
+.bigfoot{
+   display: flex;
+   gap: 25px;
+   background-color: rgb(79, 79, 144);
 }
 .abby{
 background-image: url(../images/blur.jpg);
@@ -193,16 +205,52 @@ h1{
 .gal{
     width: 100%;
     display: flex;
+    height: auto;
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
 
 }
+/* .gal2{
+    width: 100%;
+    display: flex;
+    gap: 30px; */
+
+/* }
+.sgal2{
+    width: 30%;
+} */
     .sgal{
         width: 30%;
+        height: auto;
+
+        
     }
+    /* .sgal2 image{
+        width: 100%;
+    } */
  .sgal image{
     width: 100%;
     
  }
+ .footer{
+    width: auto;
+    margin: 20px;
+
+ }
+ .link{
+    width: 30%;
+ }
+ .office{
+    width: 30%;
+ }
+ .handles{
+    width: 30%;
+ }
+.fa-facebook{
+    color: blue;
+}
  
 
  
