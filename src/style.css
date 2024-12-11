@@ -10,7 +10,7 @@ nav{
 }
 
 nav .active{
-    background-color: aquamarine;
+    background-color: aliceblue;
 }
 a{
     color: black;
@@ -252,6 +252,25 @@ h1{
 .fa-facebook{
     color: blue;
 }
- 
+.fa-linkedin{
+    color: rgb(29, 29, 69);
+}
+.fa-youtube{
+    color: rgb(164, 22, 22);
+}
+.fa-x-twitter{
+    color: rgb(53, 46, 37);
+}
+.fa-instagram{
+    color: blueviolet;
+}
 
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+
+}
  
