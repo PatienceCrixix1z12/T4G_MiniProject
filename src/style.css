@@ -8,9 +8,15 @@ nav{
    box-shadow: 0 2px 8px rgb(221, 138, 138);
    border-radius: 10px;
 }
+.we{
+    background: linear-gradient(to right,blue,purple);
+}
 
 nav .active{
-    background-color: aliceblue;
+    background-color: rgb(117, 140, 160);
+}
+.bigadd h2{
+    color: white;
 }
 a{
     color: black;
@@ -21,7 +27,19 @@ body{
 }
 form{
     text-align: center;
+    /* width: 100%; */
 
+}
+
+/* form input{
+    width: 20px;
+    padding-top: 10px;
+} */
+form label{
+    /* line-height: 5px; */
+}
+.on{
+    width: 100px;
 }
 .bigfoot{
    display: flex;
@@ -31,7 +49,7 @@ form{
 .abby{
 background-image: url(../images/blur.jpg);
 }
-.bighello{
+/* .bighello{
     display: flex;
 }
 .hello{
@@ -44,16 +62,18 @@ background-image: url(../images/blur.jpg);
 }
 .bigtext{
     display: flex;
-    gap: 40px;
+    gap: 40px; */
 
-}
+/* } */
 .text{
-    width: 40%;
+    width: 80%;
+    text-align: center;
 
 }
 .texts{
-    width: 50%;
-    margin-top: 50px;
+    /* width: 50%;
+    margin-top: 50px; */
+    text-align: center;
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,25 +84,27 @@ p{
 }
 .bl{
     width: 45%;
+
 }
 .lastimg{
-    width: 45%;
+    width: 40%;
 }
 .lastimg img{
     width: 100%;
 }
 .log{
-    width: 500px;
-    /* display: flex;
-    justify-content: center; */
-    margin: 50px auto;
-    /* border: 3px solid white; */
-    height: 250px;
-    
+    background: linear-gradient(to right,blue,purple);
+    height: 500px;
+    padding-bottom: 50px;
+}
+.handle{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .logform input{
-    width: 100%;
+    width: 250px;
     padding: 10px;
 }
 /* .logform{
@@ -105,7 +127,9 @@ p{
     width: 100%;
     height: 300px;
  } */
-
+a:hover{
+    color: white;
+}
  .abtimg{
     background-image: url('../images/abt1.jpg');
     /* background-repeat: no-repeat;
@@ -166,16 +190,19 @@ h1{
     text-align: center;
 }
 .myform{
-    text-align: center;
     border: 2px solid rgb(101, 71, 71);
     border-radius: 20px;
     width: 40%;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     justify-content: center;
     margin-left: 30%;
-    background-color: rgb(77, 129, 111);
-    background-image: url(../images/blur.jpg);
+    background: linear-gradient(to right,rgb(0, 149, 255),rgb(19, 47, 207));
+    /* background-image: url(../images/blur.jpg); */
+    line-height: 20px;
+}
+.myform input{
+    width: 250px;
 }
 .icons{
     
@@ -273,4 +300,39 @@ h1{
     padding: 10px;
 
 }
+ /* .event{
+    display: flex;
+    justify-content: center;
+ } */
+  /* .alumni{ */
+    /* display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    background-color: rgb(166, 174, 196);
+    width: 300%;
+  
+  
+  }
+     */
+   .big{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+   }
+   .you{
+    width: 40%;
+    height: 300px;
+   }
+   .you .img{
+    width: 100%;
+    height: 300px;
+   }
+  .alumni{
+    justify-content: center;
+  }
+  button{
+    background-color: burlywood;
+    padding: 5px 10px;
+    border-radius: 30%;
+  }
  
