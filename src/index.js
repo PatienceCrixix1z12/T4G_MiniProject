@@ -164,20 +164,27 @@ jackeight.addEventListener("mouseleave",close8);
 function expand9(){
     let pat9 = document.getElementById("pat9");
     pat9.style.width = "300px";
-    pat8.style.transitionDuration="500ms"
+    pat9.style.transitionDuration="500ms"
 }
 let jack9 = document.getElementById("pat9");
-jack8.addEventListener("mouseenter",expand7);
+jack9.addEventListener("mouseenter",expand9);
 
 
-// function close for image 7
-function close7(){
-    let pat7 =document.getElementById("pat7");
-    pat7.style.width = "350px";
-    pat7.style.transitionDuration="500ms";
+// function close for image 9
+function close9(){
+    let pat9 =document.getElementById("pat9");
+    pat9.style.width = "350px";
+    pat9.style.transitionDuration="500ms";
 }
 
-let jackseven= document.getElementById("pat7");
-jacksix.addEventListener("mouseleave",close7);
+let jacknine= document.getElementById("pat9");
+jacknine.addEventListener("mouseleave",close9);
 
 
+// java for index page
+ function changemore(){
+    let mine =document.getElementById("itsme");
+    mine.innerHTML='Welcome home' ;
+ }
+let mina = document.getElementById("itsme");
+mina.addEventListener("click",changemore);
