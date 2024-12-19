@@ -1,10 +1,10 @@
-
 // // java for index page
-let name = prompt("what is your name?");
- function changemore(){
-alert(`hello${name}`);
-    let mine =document.getElementById("itsme");
-    mine.innerHTML='Welcome home' ;
- }
+
+function changemore() {
+  let name = prompt("what is your name?");
+  let mine = document.getElementById("itsme");
+  mine.style.scrollBehavior = "hover";
+  mine.innerHTML = `Welcome Home ${name}`;
+}
 let mina = document.getElementById("itsme");
-mina.addEventListener("click",changemore);
+mina.addEventListener("click", changemore);
